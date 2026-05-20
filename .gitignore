@@ -1,0 +1,7 @@
+node_modules
+dist
+dev-server.log
+dev-server.err
+preview-server.log
+preview-server.err
+.DS_Store
