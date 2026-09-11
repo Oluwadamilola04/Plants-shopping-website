@@ -176,6 +176,10 @@ function ProductList() {
       <section className="page-intro">
         <p className="eyebrow">Fresh arrivals</p>
         <h1>Choose Your Plants</h1>
+        <p className="product-intro-copy">
+          Small rituals, generous leaves, and easygoing plants for every corner
+          of home.
+        </p>
       </section>
 
       {plantCategories.map((category) => (

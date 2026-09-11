@@ -14,12 +14,8 @@ function getPageFromHash() {
 function Header({ page, onNavigate }) {
   const cartQuantity = useSelector(selectCartTotalQuantity);
 
-  if (page === 'home') {
-    return null;
-  }
-
   return (
-    <header className="site-header">
+    <header className={`site-header ${page === 'home' ? 'home-header' : ''}`}>
       <button
         type="button"
         className="brand button-link"
